@@ -3,6 +3,7 @@ let btn = document.querySelectorAll('span');
 let value = document.getElementById('value');
 let togglebtn = document.querySelector('.togglebtn');
 let body=document.querySelector('body');
+let darkText= document.getElementsByClassName('drak-text')
 togglebtn.onclick = function(){
     body.classList.toggle('dark');
 } 
